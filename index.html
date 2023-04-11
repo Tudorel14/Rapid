@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Rapid Bucuresti    </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+	<header>
+		<script>
+		
+			function updateTime() {
+				var now = new Date();
+				var hours = now.getHours();
+				var minutes = now.getMinutes();
+				var seconds = now.getSeconds();
+				var timeString = hours + ":" + minutes + ":" + seconds;
+				document.getElementById("clock").innerHTML = timeString;
+			}
+	
+			setInterval(updateTime, 1000);
+		</script>
+        <center><h1>Rapid Bucuresti 1923</h1></center>
+        <center><img src="assets/t.webp" alt="Descrierea imaginii"></center>
+		<h1><span>100 ani de legendă !</span></h1>
+	</header>
+	<nav>
+		<div id="clock"></div>
+
+        <ul>
+    <div> 
+        <br>
+		<audio id="melodie" autoplay loop>
+			<source src="assets/WhatsApp Audio 2023-04-08 at 14.12.13.opus" type="audio/mpeg">
+		  </audio>
+    <table>
+		<li><a href="https://www.fcrapid.ro/">Acasă</a></li>
+		<li><a href="https://www.fcrapid.ro/cristian-sapunaru-39/">Jucatori</a></li>
+		<li><a href="https://www.fcrapid.ro/istorie-giulesteana-rapid-1997-1998/">Istoric</a></li>
+		<li><a href="https://www.fcrapid.ro/stadion/">Stadion</a></li>
+		<li><a href="https://www.flashscore.ro/echipa/rapid-buc/YFCpigVG/meciuri/">Urmatorul meci</a></li>
+		</ul>
+		
+		<br>
+	</nav>
+	<div class="video-container">
+		<p>Cel mai frumos moment al sezonului !</p>
+		<video controls>
+		   <source src="assets/WhatsApp Video 2023-04-10 at 21.18.06.mp4" type="video/mp4">
+		   <source src="numele_fisierului.webm" type="video/webm">
+		   <p>Cel mai frumos moment al sezonului !</p>
+		</video>
+	 </div>
+	<main>
+		<br>
+		<h2>Bun venit pe site-ul Echipei de Fotbal Rapid!</h2>
+		<p><a href="https://www.flashscore.ro/meci/plt1XRsg/#/sumar-meci">Click aici  </a>  pentru a afla ultimele informatii despre meciul urmator cu Univ. Craiova !</p>
+		<table>
+			<thead>
+			  <tr>
+				<th>Data</th>
+				<th>Ora</th>
+				<th>Echipa gazdă</th>
+				<th>Echipa oaspete</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td>16 aprilie</td>
+				<td>19:30</td>
+				<td>Craiova  </td>
+				<td>Rapid</td>
+			  </tr>
+			  <tr>
+				<td>22 aprilie</td>
+				<td>20:30</td>
+				<td>Rapid   </td>
+				<td>FCSB </td>
+			  </tr>
+			  <tr>
+				<td>29 aprilie</td>
+				<td>20:00</td>
+				<td>Rapid  </td>
+				<td>CFR</td>
+			  </tr>
+			</tbody>
+		  </table>
+		  <div class= >
+		  <br>
+		</div>
+		<hr size="7" noshade>
+	</main>
+	<embed src="https://www.fcrapid.ro/doua-baze-noi-pentru-viitorul-rapidului/" width="2000" height="400">
+		<iframe> src="https://www.youtube.com/watch?v=TqYqMtVnhY8&ab_channel=hippiepittis" </iframe>
+	<footer>
+		<p>Drepturi de autor © 2023 Tudor Ivan</p>
+		<button onclick="document.getElementById('melodie').play()"></button>
+	</footer>
+</body>
+</html>
